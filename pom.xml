@@ -8,6 +8,10 @@
     <artifactId>simple-spring-boot-rest-api</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+    <properties>
+        <maven.compiler.source>1.13</maven.compiler.source>
+        <maven.compiler.target>1.13</maven.compiler.target>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
